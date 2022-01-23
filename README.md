@@ -1,12 +1,12 @@
-# bmi-calculator
-版型出自 [六角學院](https://www.hexschool.com/)線上課程作業，僅作練習。
+# bmi-calculator-en
+The version comes from [HexSchool](https://www.hexschool.com/) online coursework, for practice only.
 
-### [Github Pages](https://joyun25.github.io/bmi-calculator/)
-![](https://i.imgur.com/oyYPfD4.png)
-![](https://i.imgur.com/1NfqeAQ.png)
+### [Github Pages](https://joyun25.github.io/bmi-calculator-en/)
+![](https://i.imgur.com/edSlv9Y.png)
+![](https://i.imgur.com/JwVDLCr.png)
 
-#### 功能：
-- BMI計算
+#### Features:
+- BMI calculation
 - localStorage
-- 紀錄最新10筆資料
+- Record the latest 10 data
 - RWD
