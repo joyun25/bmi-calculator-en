@@ -1,0 +1,114 @@
+.red {
+    color: $red;
+}
+.btn_red {
+    color: $red;
+    border: 6px solid $red;
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 30px;
+        height: 30px;
+        background-color: $red;
+        background-image: url('../assets/icons_loop.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 14px 19px;
+        border-radius: 50%;
+        border: 3px solid $blackGray;
+    }
+}
+
+.strongOrange {
+    color: $strongOrange;
+}
+.btn_strongOrange {
+    color: $strongOrange;
+    border: 6px solid $strongOrange;
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 30px;
+        height: 30px;
+        background-color: $strongOrange;
+        background-image: url('../assets/icons_loop.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 14px 19px;
+        border-radius: 50%;
+        border: 3px solid $blackGray;
+    }
+}
+
+.lightOrange {
+    color: $lightOrange;
+}
+.btn_lightOrange {
+    color: $lightOrange;
+    border: 6px solid $lightOrange;
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 30px;
+        height: 30px;
+        background-color: $lightOrange;
+        background-image: url('../assets/icons_loop.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 14px 19px;
+        border-radius: 50%;
+        border: 3px solid $blackGray;
+    }
+}
+
+.blue {
+    color: $blue;
+}
+.btn_blue {
+    color: $blue;
+    border: 6px solid $blue;
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 30px;
+        height: 30px;
+        background-color: $blue;
+        background-image: url('../assets/icons_loop.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 14px 19px;
+        border-radius: 50%;
+        border: 3px solid $blackGray;
+    }
+}
+
+.green {
+    color: $green;
+}
+.btn_green {
+    color: $green;
+    border: 6px solid $green;
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 30px;
+        height: 30px;
+        background-color: $green;
+        background-image: url('../assets/icons_loop.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 14px 19px;
+        border-radius: 50%;
+        border: 3px solid $blackGray;
+    }
+}

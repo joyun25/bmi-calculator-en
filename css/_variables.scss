@@ -1,0 +1,30 @@
+// Colors
+// -- Main
+$yellow: #FFD366; // main color
+$blackGray: #424242; // header background, text color
+$lightGray: #f7f7f7; // body background
+$darkYellow: #DEA821; // btn active
+
+// --Input
+$veryTransparentWhite: rgba(255,255,255,0.18); // input background
+$transparentWhite: rgba(255,255,255,0.5); // input placeholder
+$white: rgba(255,255,255,1); // input text
+
+// --State Colors
+$red: rgba(255,18,0,1);
+$strongOrange: rgba(255,108,3,1);
+$lightOrange: rgba(255,152,45,1);
+$blue: rgba(49,186,249,1);
+$green: rgba(134,215,63,1);
+
+// --Shadow
+$shadow-yellow: rgba(255,196,50,0.64);
+$shadow-red: rgba(255,18,0,.29);
+$shadow-strongOrange: rgba(255,108,3,.29);
+$shadow-lightOrange: rgba(255,152,45,.29);
+$shadow-blue: rgba(49,186,249,.29);
+$shadow-green: rgba(134,215,63,.29);
+
+// Google Fonts
+$mPlus: 'M PLUS 1p', sans-serif; // 400, main
+$notoSansTc: 'Noto Sans TC', sans-serif; // 400, button

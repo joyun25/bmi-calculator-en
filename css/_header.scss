@@ -1,0 +1,132 @@
+header {
+    background: $blackGray;
+    padding: 74px 0;
+}
+
+.container_input {
+    max-width: 250px;
+    margin: 0 auto;
+    position: relative;
+    @include pad {
+        position: static;
+    }
+    label {
+        display: block;
+        margin-bottom: 7px;
+        color: $yellow;
+        font-size: 18px;
+    }
+    input {
+        width: 100%;
+        height: 40px;
+        font-size: 24px;
+        margin-bottom: 24px;
+        padding-left: 15px;
+        border-radius: 10px;
+        border: 2px solid $yellow;
+        background: $veryTransparentWhite;
+        color: $white;
+        outline: none;
+        &::placeholder {
+            color: $transparentWhite;
+            font-size: 18px;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.logo_header {
+    position: absolute;
+    top: 18px;
+    left: -214px;
+    background-image: url('../assets/BMICLogo_117x117.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 117px;
+    height: 117px;
+    @include pad {
+        position: static;
+        margin: 0 auto 20px;
+    }
+}
+
+.button {
+    position: absolute;
+    top: 18px;
+    left: 303px;
+    font-family: $notoSansTc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include pad {
+        position: static;
+        margin: 0 auto;
+    }
+    @include mobile {
+        flex-direction: column;
+        align-items: center;
+    }
+    p {
+        font-size: 32px;
+        white-space: nowrap;
+        padding-top: 2px;
+    }
+}
+
+.submit,
+.result {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: content-box;
+    flex: 0 0 120px;
+}
+
+.submit {
+    background: $yellow;
+    font-size: 24px;
+    &:hover {
+        box-shadow: 0 1px 6px 3px $shadow-yellow;
+    }
+    &:active {
+        background: $darkYellow;
+        box-shadow: none;
+    }
+}
+
+.result {
+    background: $blackGray;
+    margin-right: 18px;
+    font-size: 14px;
+    position: relative;
+    @include mobile {
+        margin-right: 0;
+    }
+    span {
+        display: block;
+        font-size: 32px;
+        padding: 8px 0 4px;
+    }
+}

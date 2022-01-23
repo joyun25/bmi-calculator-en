@@ -1,0 +1,146 @@
+// CSS Reset
+@import 'reset';
+
+// Google fonts
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=Noto+Sans+TC&display=swap');
+
+// Mixin
+@mixin pad {
+    @media (max-width: 1140px) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media (max-width: 430px) {
+        @content;
+    }
+}
+
+// My CSS
+@import 'variables';
+@import 'layout';
+@import 'header';
+@import 'btnColors';
+
+// --Main
+main {
+    min-height: calc(100vh - 393px);
+}
+
+.container_record {
+    max-width: 624px;
+    margin: 0 auto;
+    padding: 48px 0 74px;
+    @include pad {
+        padding: 48px 20px;
+    }
+}
+
+table {
+    width: 100%;
+}
+
+thead {
+    tr {
+        border-bottom: 36px solid $lightGray;
+        th {
+            font-family: $notoSansTc;
+            font-size: 24px;
+        }
+    }
+}
+
+tbody {
+    tr {
+        background: #fff;
+        border-bottom: 16px solid $lightGray;
+        td {
+            font-size: 20px;
+            text-align: center;
+            line-height: 62px;
+            @include pad {
+                font-size: 16px;
+                line-height: 40px;
+            }
+            span {
+                font-size: 12px;
+                line-height: 62px;
+                @include pad {
+                    display: none;
+                }
+            }
+        }
+    }
+    tr:last-child {
+        border-bottom: none;
+    }
+}
+
+// ---- State Colors
+.state-red {
+    width: 7px;
+    height: 62px;
+    background: $red;
+    box-shadow: 2px 0 3px $shadow-red;
+    @include pad {
+        height: 40px;
+    }
+}
+
+.state-strongOrange {
+    width: 7px;
+    height: 62px;
+    background: $strongOrange;
+    box-shadow: 2px 0 3px $shadow-strongOrange;
+    @include pad {
+        height: 40px;
+    }
+}
+
+.state-lightOrange {
+    width: 7px;
+    height: 62px;
+    background: $lightOrange;
+    box-shadow: 2px 0 3px $shadow-lightOrange;
+    @include pad {
+        height: 40px;
+    }
+}
+
+.state-green {
+    width: 7px;
+    height: 62px;
+    background: $green;
+    box-shadow: 2px 0 3px $shadow-green;
+    @include pad {
+        height: 40px;
+    }
+}
+
+.state-blue {
+    width: 7px;
+    height: 62px;
+    background: $blue;
+    box-shadow: 2px 0 3px $shadow-blue;
+    @include pad {
+        height: 40px;
+    }
+}
+
+// --Footer
+footer {
+    background: $yellow;
+}
+
+.logo_footer {
+    padding: 18px 0;
+    @include pad {
+        padding: 15px 0;
+    }
+    img {
+        width: 55px;
+        height: 55px;
+        margin: 0 auto;
+    }
+}
